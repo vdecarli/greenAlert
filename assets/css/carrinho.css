@@ -1,0 +1,42 @@
+.visao_geral_cesta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.visao_geral_cesta > div{
+    padding: 1.25em;
+    margin: 1.25em;
+}
+.produto_na_cesta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom-style: ridge;
+    border-width: 0.125em;
+}
+.produto_na_cesta > div{
+    padding-left: 0.625em;
+    padding-right: 0.625em;
+}
+.valores_da_cesta{
+    background-color: #FFF3E0;
+}
+.valores_da_cesta div *{
+    padding: 0.1875em;
+}
+
+.h1_meu_carrinho{
+    margin-top: 0.625em;
+}
+.finalizar_pedido a{
+    padding: 0.625em;
+}
+.finalizar_pedido{
+    margin: 1em auto;
+}

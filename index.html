@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerta Verde Desenvolvimento LTDA</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/formularios.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Atomic+Age|Baloo+Da|Zilla+Slab+Highlight"
+        rel="stylesheet">
+</head>
+
+<body class="bc-img">
+    <header class="cabecalho">
+        <div class="container">
+            <div class="header-logo">
+                <h1>
+                    <a href="index.html" title="Ir para a página inicial">
+                        <img src="assets/img/logo/logo.svg" alt="Logotipo da Alerta Verde Desenvolvimento LTDA" class="logo">
+                    </a>
+                    <p class="titulo titulo-fonte">Alerta Verde</p>
+                    <p class="subtitulo titulo-fonte">Desenvolvimento LTDA</p>
+                </h1>
+            </div>
+            <div class="btn-menu">
+                <a href="#" onclick="mostrarMenu()">
+                    <img src="assets/img/icons/menu.svg" alt="Botão de menu">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul class="menu-ul font-size">
+                    <li><a href="index.html" class="menu-li">Página Inicial</a></li>
+                    <li><a href="produtos.html" class="menu-li">Produtos</a></li>
+                    <li><a href="servicos.html" class="menu-li">Serviços</a></li>
+                    <li><a href="sobre.html" class="menu-li">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="menu-li">Fale Conosco</a></li>
+                    <li><a href="login.html" class="menu-li">Minha Página</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="master">
+        <div class="container box">
+            <div class="cardsHome">
+                <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Aviso</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Operação normal</h5>
+                        <p class="card-text">Após a anomalia, os sistemas registram situação normal.</p>
+                        <a href="#" class="btn btn-primary">+ detalhes</a>
+                    </div>
+                </div>
+                <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Perigo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Risco de Enchente</h5>
+                        <p class="card-text">Pode ser que ocorram enchetes nas próximas 24 horas</p>
+                        <a href="#" class="btn btn-primary">+ detalhes</a>
+                    </div>
+                </div>
+                <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Alerta</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Chuvas Fortes</h5>
+                        <p class="card-text">Há previsão de chuvas fortes nos próximos dias.</p>
+                        <a href="#" class="btn btn-primary">+ detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span class="slogan-fonte">Programando sustentatibilidade</span>
+            </div>
+        </div>
+
+    </main>
+    <footer class="cabecalho">
+        <div class="footer_social container">
+            <ul>
+                <li>
+                    <a href="http://twitter.com/ProsegSecurity" title="Página no Twitter">
+                        <img src="assets/img/icons/social/twitter.svg" width="30" height="30" alt="Ícone com link para a página do site no Twitter"
+                            class="redes-sociais-icones">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://facebook.com/ProsegSecurity" title="Página no Facebook">
+                        <img src="assets/img/icons/social/facebook.svg" width="30" height="30" alt="Ícone com link para a página do site no Facebook"
+                            class="redes-sociais-icones">
+                    </a>
+                </li>
+            </ul>
+            <p>Alerta Verde Desenvolvimento LTDA</p>
+            <p>Desenvolvido por
+                <a href="http://www.alencar.app" class="links">alencar.app</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        let menuAtivo = false;
+        function mostrarMenu() {
+            if (menuAtivo) {
+                document.querySelector('.menu').style.display = 'none';
+                menuAtivo = false;
+            } else {
+                document.querySelector('.menu').style.display = 'flex';
+                menuAtivo = true;
+            }
+        }
+    </script>
+</body>
+
+</html>

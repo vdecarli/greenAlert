@@ -1,0 +1,30 @@
+.contato{
+    max-width: 95%;
+}
+.div_submit{
+    width: 25em;
+}
+.div_submit > div{
+    width: 78%;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    text-align: left
+}
+
+
+
+
+@media (min-width: 768px){
+    .div_submit{
+        flex-direction: row;
+
+        margin: auto;
+    }
+    .div_submit > div{
+        margin: 0 0.7em;
+        width: 10em;
+    }
+}

@@ -1,0 +1,182 @@
+/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Zilla Slab Highlight', cursive;
+font-family: 'Atomic Age', cursive;
+font-family: 'Baloo Da', cursive;
+*/
+.master{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-width: 320px;
+    max-width: 1300px;
+}
+.box{
+    box-shadow: 0px 0px 20px 0px grey;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 1px;    
+}
+.logo{
+    width: 8.0em;
+}
+.titulo-fonte{
+    font-family: 'Baloo Da', cursive;
+}
+.slogan-fonte{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+    font-size: 3em;
+}
+.titulo{
+    font-size: 1.5em;
+}
+.subtitulo{
+    font-size: 1em;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.bc-img{
+    background: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.gradiente{
+    background: linear-gradient(35deg,rgba(255, 255, 255, 0.87),rgb(255, 255, 255));
+}
+.menu{
+    display: none;
+}
+.menu-ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.menu-li{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+.menu-li:hover{
+    background-color: rgb(189, 224, 192);
+}
+.btn-menu{
+    width: 25px;
+    height: 30px;
+}
+.font-size{
+    font-size: 1em;
+}
+#mapa{
+    display: none;
+}
+.ch2{
+    font-size: 2em;
+}
+.ch3{
+    font-size: 1.5em;
+}
+
+
+
+/*RODAPÉ*/
+.footer_social > ul > li{
+    display: inline;
+}
+.redes-sociais-icones{
+    padding: 5px;
+    margin-left: 0;
+    border-radius: 1em;
+}
+.links{
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(180deg,transparent,#ffffff 0);
+    background-size: 100% 0.0625em;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+.links:hover{
+    color: black;
+    background-size: 100% 100%;
+}
+
+/*RODAPÉ*/
+
+
+
+
+
+
+/*BOTÕES*/
+.botao{
+    width: 100%;
+    background-color: #C23200;
+    color: white;
+    padding: 0.8em;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.5625em;
+    font-size: 1em;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: #E65100;
+}
+
+/*BOTÕES*/
+
+.icons{
+    width: 4em;
+}
+
+
+
+
+/*-------------------------------------responsividade-------------------------------------*/
+@media (min-width: 768px){
+    .menu-ul{
+        flex-direction: row;
+    }
+    .menu{
+        display: block;
+    }
+    .btn-menu{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
