@@ -49,18 +49,18 @@
 .objetivo{
     font-size: 1.5em;
 }
-.cardsHome *{
+.cardsHome{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
-
 }
-
-
+.cardsHome > div{
+    margin-left: 1em;
+}
 
 
 

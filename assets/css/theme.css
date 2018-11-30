@@ -77,9 +77,10 @@ font-family: 'Baloo Da', cursive;
     color: white;
     padding: 0.5em;
 }
-.menu-li:hover{
-    background-color: rgb(189, 224, 192);
+/*.menu-li:hover{
+    //background-color: rgb(189, 224, 192);
 }
+*/
 .btn-menu{
     width: 25px;
     height: 30px;
@@ -112,14 +113,15 @@ font-family: 'Baloo Da', cursive;
     padding: 0.5em;
     color: white;
     text-decoration: none;
-    background: linear-gradient(180deg,transparent,#ffffff 0);
+    background: linear-gradient(180deg,transparent,#045a17 0);
     background-size: 100% 0.0625em;
     background-position: bottom;
     background-repeat: no-repeat;
     transition: all .5s;
 }
 .links:hover{
-    color: black;
+    color: white;
+    text-decoration: none;
     background-size: 100% 100%;
 }
 
