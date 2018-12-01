@@ -42,11 +42,7 @@
             <nav class="menu">
                 <ul class="menu-ul font-size">
                     <li><a href="index.html" class="menu-li links">Página Inicial</a></li>
-                    <li><a href="produtos.html" class="menu-li links">Produtos</a></li>
-                    <li><a href="servicos.html" class="menu-li links">Serviços</a></li>
-                    <li><a href="sobre.html" class="menu-li links">Sobre Nós</a></li>
-                    <li><a href="contato.html" class="menu-li links">Fale Conosco</a></li>
-                    <li><a href="login.html" class="menu-li links">Minha Página</a></li>
+
                 </ul>
             </nav>
         </div>
@@ -81,7 +77,27 @@
                     </div>
                 </div>
                 <div class="iframe">
-                    <canvas class="my-4 w-100 chartjs-render-monitor" id="myChart" width="1610" height="678" style="display: block; width: 805px; height: 339px;"></canvas>
+                    <div class="card text-white bg-dark mb-3" style="width: 50rem;">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                    aria-controls="home" aria-selected="true">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                    aria-controls="profile" aria-selected="false">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                    aria-controls="contact" aria-selected="false">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
