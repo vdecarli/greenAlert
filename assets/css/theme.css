@@ -52,12 +52,13 @@ font-family: 'Baloo Da', cursive;
     text-align: center;
 }
 .bc-img{
-    background: url("../img/header.jpg");
+    background: url("../img/header.jpg") fixed;
     background-repeat: no-repeat;
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
     position: relative;
 }
 .gradiente{
