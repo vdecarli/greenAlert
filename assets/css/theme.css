@@ -19,14 +19,14 @@ font-family: 'Baloo Da', cursive;
     max-width: 1300px;
 }
 .box{
-    box-shadow: 0px 0px 20px 0px grey;
+    box-shadow: 0px 0px 20px 0px rgb(22, 187, 16);
     text-align: center;
     margin: 10px 10px;
     padding: 5px;
     border-radius: 1px;    
 }
 .logo{
-    width: 8.0em;
+    width: 6.0em;
 }
 .titulo-fonte{
     font-family: 'Baloo Da', cursive;

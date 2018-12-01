@@ -61,14 +61,21 @@
 .cardsHome > div{
     margin-left: 1em;
 }
+.logoOrientacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 
 
 
 /*-------------------------------------responsividade-------------------------------------*/
 @media (min-width: 768px){
-    #mapa{
-        max-width: 200%;
+    .logoOrientacao{
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-content: center;
         align-items: center;
