@@ -68,8 +68,24 @@
     align-content: center;
     align-items: center;
 }
-.iframe{
+.frameContingencia{
+    background: url("../img/contingencia4.jpeg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: relative;
     width: 70%;
+    height: 36.5em;
+    display: table;
+}
+.frameContingencia > p{
+    font-size: 2em;
+    display: table-cell;
+    vertical-align: bottom;
+    color: white;
 }
 
 
