@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerta Verde Desenvolvimento LTDA</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/formularios.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Atomic+Age|Baloo+Da|Zilla+Slab+Highlight"
+        rel="stylesheet">
+</head>
+
+<body class="bc-img">
+    <header class="cabecalho">
+        <div class="container">
+            <div class="header-logo">
+                <h1>
+                    <div class="logoOrientacao">
+                        <div>
+                            <a href="index.html" title="Ir para a página inicial">
+                                <img src="assets/img/logo/logo.svg" alt="Logotipo da Alerta Verde Desenvolvimento LTDA"
+                                    class="logo">
+                            </a>
+                        </div>
+                        <div>
+                            <p class="titulo titulo-fonte">Alerta Verde</p>
+                            <p class="subtitulo titulo-fonte">Desenvolvimento LTDA</p>
+                            <span class="slogan-fonte">Programando sustentatibilidade</span>
+                        </div>
+                    </div>
+                </h1>
+            </div>
+            <div class="btn-menu">
+                <a href="#" onclick="mostrarMenu()">
+                    <img src="assets/img/icons/menu.svg" alt="Botão de menu">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul class="menu-ul font-size">
+                    <li><a href="index.html" class="menu-li links">Página Inicial</a></li>
+                    <li><a href="/home/index.html" class="menu-li links">Dados Abertos</a></li>
+                    <li><a href="legislacao.html" class="menu-li links">Legislação</a></li>
+                    <li><a href="contigencia.html" class="menu-li links">Plano de Contigência</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="master">
+        <div class="container box">
+
+        </div>
+
+    </main>
+    <footer class="cabecalho">
+        <div class="footer_social container">
+            <ul>
+                <li>
+                    <a href="http://twitter.com/AlertaVerdeDev" title="Página no Twitter">
+                        <img src="assets/img/icons/social/twitter.svg" width="50" height="50" alt="Ícone com link para a página do site no Twitter"
+                            class="redes-sociais-icones">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://facebook.com/AlertaVerdeDev" title="Página no Facebook">
+                        <img src="assets/img/icons/social/facebook.svg" width="50" height="50" alt="Ícone com link para a página do site no Facebook"
+                            class="redes-sociais-icones">
+                    </a>
+                </li>
+            </ul>
+            <p>Alerta Verde Desenvolvimento LTDA</p>
+            <p>Desenvolvido por
+                <a href="http://www.alencar.app" class="links">alencar.app</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        let menuAtivo = false;
+        function mostrarMenu() {
+            if (menuAtivo) {
+                document.querySelector('.menu').style.display = 'none';
+                menuAtivo = false;
+            } else {
+                document.querySelector('.menu').style.display = 'flex';
+                menuAtivo = true;
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+</body>
+
+</html>
