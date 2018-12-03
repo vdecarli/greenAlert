@@ -1,0 +1,15 @@
+.cContingencia{
+    display: flex;
+    flex-direction: column;
+}
+.cContingencia > div{
+    margin: 0.5em;
+}
+
+@media (min-width: 768px){
+    .cContingencia{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
