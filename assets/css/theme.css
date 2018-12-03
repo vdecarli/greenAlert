@@ -26,7 +26,7 @@ font-family: 'Baloo Da', cursive;
     border-radius: 1px;    
 }
 .logo{
-    width: 6.0em;
+    width: 5.0em;
 }
 .titulo-fonte{
     font-family: 'Baloo Da', cursive;
@@ -34,13 +34,13 @@ font-family: 'Baloo Da', cursive;
 .slogan-fonte{
     font-family: 'Zilla Slab Highlight', cursive;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 .titulo{
     font-size: 1em;
 }
 .subtitulo{
-    font-size: 1em;
+    font-size: 1.5em;
 }
 .cabecalho{
     display: flex;
